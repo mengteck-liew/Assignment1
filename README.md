@@ -1,4 +1,4 @@
-Jeon Somi Artist profile(Soloist Singer)
+# Jeon Somi Artist profile(Soloist Singer)
 She is a solist singer who is talented. She is able sing, dance and is a billigual who speaks both english and korean.
 
 
