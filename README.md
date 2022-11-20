@@ -5,7 +5,7 @@ The website will showcase songs/albums she has released, her biography and music
 
 Essentially, this part is your sales pitch.
 
-Design Process
+##Design Process
 Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
@@ -13,7 +13,7 @@ In particular, as part of this section we recommend that you provide a list of U
 As a user type, I want to perform an action, so that I can achieve a goal.
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.
 
-Features
+##Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
 Existing Features
@@ -26,7 +26,7 @@ Another feature idea
 Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-JQuery
+##JQuery
 The project uses JQuery to simplify DOM manipulation.
 Testing
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
@@ -42,7 +42,7 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-Credits
+##Credits
 Content
 The text for section Y was copied from the Wikipedia article Z
 Media
