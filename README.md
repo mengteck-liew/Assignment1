@@ -43,7 +43,7 @@ If this section grows too long, you may want to split it off into a separate fil
 ## Credits
 Content
 The text for section Y was copied from the Wikipedia article Z
-Media
+## Media
 The photos used in this site were obtained from ...
-Acknowledgements
+## Acknowledgements
 I received inspiration for this project from X
