@@ -6,12 +6,14 @@ The website will showcase songs/albums she has released, her biography and music
 ## Design Process
 
 
+Wireframe : https://xd.adobe.com/view/f63ebdd7-923a-4251-a6e7-20189259ae76-a36d/
+
 ## Features
 Social media links to let the fans see more from the artist
 Showcasing full list of albums that the artist realeased
 Showcasing music videos of the what the artist has realeased through media
 
-Wireframe : https://xd.adobe.com/view/f63ebdd7-923a-4251-a6e7-20189259ae76-a36d/
+
 
 Existing Features
 
