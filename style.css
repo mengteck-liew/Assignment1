@@ -2,7 +2,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-image: url("https://wallpapercave.com/wp/wp10223102.jpg");
+    background-image: url("");
 }
 h1 {
     max-width: 100%;
@@ -32,4 +32,9 @@ a {
 }
 a:hover {
     color: blue;
+}
+footer {
+    background-color: black;
+    margin: 0;
+    padding: 0;
 }
