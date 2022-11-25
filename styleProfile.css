@@ -30,3 +30,20 @@ a {
 #profile {
     color: blue;
 }
+.flex-container {
+    display: flex;
+    justify-content: left;
+}
+.flex-container > .box1 {
+    background-color: white;
+    margin: 50px;
+    border: 1px black solid;
+    height: 400px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+  }
+.details {
+    flex: 50%;
+    flex-direction: row;
+  }
