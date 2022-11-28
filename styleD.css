@@ -8,7 +8,7 @@ header {
 }
 #titlepage {
     color: white;  
-    margin-top: 0;
+    margin-top: 0 ;
     padding: 0;
     text-align: center;
 }
@@ -27,36 +27,19 @@ a {
     text-decoration: none;
     color: white;
 }
-#profile {
+#disc {
     color: royalblue;
 }
 .flex-container {
     display: flex;
-    justify-content: left;
+    flex-direction: row;
+    justify-content: center;
+    
 }
 .box {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
- .box1 {
-    background-color: white;
-    margin: 40px;
-    border: 1px black solid;
-    height: 500px;
-    width: 500px;
-    
-  }
-.box2    {
-    margin: 50px;
+    width: 300px;
     height: 300px;
-    width: 400px;
-    align-self: center  ;
+    margin: 30px;
     border: 1px black solid;
-    align-items: right;
-    text-align: center;
-  }
-  #somiprofile {
-    height: 500px;
-    width: 500px;
-  }
+    justify-content: center;
+}
