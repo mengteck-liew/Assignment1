@@ -12,6 +12,7 @@ Wireframe : https://xd.adobe.com/view/f63ebdd7-923a-4251-a6e7-20189259ae76-a36d/
 Social media links to let the fans see more from the artist
 Showcasing full list of albums that the artist realeased
 Showcasing music videos of the what the artist has realeased through media
+Showcasing artist photo's on a page
 
 
 
