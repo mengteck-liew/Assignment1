@@ -7,7 +7,7 @@ The website will showcase what she has done in her career as a singer. Her profi
 ## Design Process
 Purpose of the website: To allow current and new audience of what she does and songs she has released to know more about her.
 
-Wireframe : https://xd.adobe.com/view/f63ebdd7-923a-4251-a6e7-20189259ae76-a36d/
+Wireframe : https://xd.adobe.com/view/7c0cabe5-3c4e-493c-a1d0-e06aefb296ec-295f/
 
 ## Features
 Social media links to let the fans see more from the artist
