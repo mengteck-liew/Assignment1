@@ -1,10 +1,11 @@
 # Jeon Somi Artist profile(Soloist Singer)
 She is a solist singer who is talented.  She is able sing, dance and is a billigual who speaks both english and korean.
-The website will showcase songs/albums she has released, her biography and music videos her fans can check out throught this website.
+The website will showcase what she has done in her career as a singer. Her profile, songs and social media links.
+
   
 
 ## Design Process
-
+Purpose of the website: To allow current and new audience of what she does and songs she has released to know more about her.
 
 Wireframe : https://xd.adobe.com/view/f63ebdd7-923a-4251-a6e7-20189259ae76-a36d/
 
