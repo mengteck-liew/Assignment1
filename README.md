@@ -36,11 +36,10 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Credits
-Image for index.htmll : https://wallpapercave.com/wp/wp10223102.jpg
 Text copied from profile.html is from https://kprofiles.com/jeon-somi-profile/
 
 
 ## Media
-
+Image for index.htmll : https://wallpapercave.com/wp/wp10223102.jpg
 ## Acknowledgements
 I received inspiration for this project from http://edam-ent.com/eng/sub03/sub03_0301_view and https://twice.jype.com/
