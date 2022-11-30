@@ -20,10 +20,13 @@ ul {
     padding: 0;
     list-style-type: none;
     text-align: center;
+    border: none;
 }
 li {
     display: inline-block;
-    margin: 45px;   
+    margin: 50px;   
+    padding: none;
+    border: none;
 }
 /* navigation links  */
 a {
@@ -36,9 +39,16 @@ main {
 footer {
     position: inherit;
     bottom:0;
-    width:100%;
+    width: 100%;
     background-color: black;
     margin-top: auto;
     float: inline-start;
+    border: none;
+    padding: none;
     
+}
+.socials {
+    color: white;
+    border: none;
+    padding: none;
 }
