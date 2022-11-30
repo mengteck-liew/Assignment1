@@ -21,7 +21,7 @@ ul {
 }
 li {
     display: inline-block;
-    margin: 45px;   
+    margin: 40px;   
 }
 a {
     text-decoration: none;
@@ -60,3 +60,9 @@ a {
     height: 500px;
     width: 500px;
   }
+  .socials {
+    padding: 10px;
+    justify-content: center;
+    align-self: center;
+    color: white;
+}
