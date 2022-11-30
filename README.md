@@ -1,10 +1,11 @@
 # Jeon Somi Artist profile(Soloist Singer)
 She is a solist singer who is talented.  She is able sing, dance and is a billigual who speaks both english and korean.
-The website will showcase songs/albums she has released, her biography and music videos her fans can check out throught this website.
+The website will showcase what she has done in her career as a singer. Her profile, songs and social media links.
+
   
 
 ## Design Process
-
+Purpose of the website: To allow current and new audience of what she does and songs she has released to know more about her.
 
 Wireframe : https://xd.adobe.com/view/f63ebdd7-923a-4251-a6e7-20189259ae76-a36d/
 
@@ -12,6 +13,7 @@ Wireframe : https://xd.adobe.com/view/f63ebdd7-923a-4251-a6e7-20189259ae76-a36d/
 Social media links to let the fans see more from the artist
 Showcasing full list of albums that the artist realeased
 Showcasing music videos of the what the artist has realeased through media
+Showcasing artist photo's on a page
 
 
 
@@ -34,8 +36,14 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Credits
+Text copied from profile.html is from https://kprofiles.com/jeon-somi-profile/
+
 
 ## Media
-
+Image for index.htmll : https://wallpapercave.com/wp/wp10223102.jpg
+image for discrography:https://i.kfs.io/album/global/56676266,0v1/fit/500x500.jpg
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.beatsource.com%2Frelease%2Fxoxo%2F1062015&psig=AOvVaw1qZIXzSBF4mUWQu1r5-22l&ust=1669864948440000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCMDOxu351PsCFQAAAAAdAAAAABAS
+https://lastfm.freetls.fastly.net/i/u/500x500/10386788dc6b63bb4647c8b3196edb6f.jpg
+https://i.kfs.io/album/global/82390270,0v1/fit/500x500.jpg
 ## Acknowledgements
 I received inspiration for this project from http://edam-ent.com/eng/sub03/sub03_0301_view and https://twice.jype.com/
