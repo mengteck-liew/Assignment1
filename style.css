@@ -1,8 +1,8 @@
 /* index.html */
 body {
-    margin: 0;
-    padding: 0;
-    border: none;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 header{
     margin-top: 0px;
@@ -19,7 +19,6 @@ ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    background-color: black;
     text-align: center;
 }
 li {
@@ -35,11 +34,11 @@ main {
     margin-bottom: 0;
 }
 footer {
-    align-items: flex-end;
-    justify-content: end;
+    position: inherit;
+    bottom:0;
+    width:100%;
     background-color: black;
-    margin-top: 0;
-}
-.titlepage:hover {
-    color: white;
+    margin-top: auto;
+    float: inline-start;
+    
 }
