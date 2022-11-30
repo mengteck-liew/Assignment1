@@ -41,5 +41,7 @@ Text copied from profile.html is from https://kprofiles.com/jeon-somi-profile/
 
 ## Media
 Image for index.htmll : https://wallpapercave.com/wp/wp10223102.jpg
+image for discrography:
+https://i.kfs.io/album/global/56676266,0v1/fit/500x500.jpg
 ## Acknowledgements
 I received inspiration for this project from http://edam-ent.com/eng/sub03/sub03_0301_view and https://twice.jype.com/
