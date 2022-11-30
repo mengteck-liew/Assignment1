@@ -30,3 +30,14 @@ a {
 #photo {
     color: royalblue;
 }
+.flexcontainer
+{
+    display: flex;
+    flex-direction: row;
+}
+.box {
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
