@@ -40,6 +40,10 @@ a {
     width: 300px;
     height: 300px;
     margin: 30px;
-    border: 1px black solid;
+    border: 4px black solid;
     justify-content: center;
+}
+img {
+    width: 300px;
+    height: 300px;
 }
