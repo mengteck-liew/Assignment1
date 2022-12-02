@@ -2,6 +2,8 @@
 body {
     min-height: 100vh;
     display: flex;
+    border: none;
+    margin: none;
     flex-direction: column;
     font-size: 0px;
 }
@@ -58,4 +60,21 @@ footer {
 .somiposter {
     width: 1515px;
     height: 600px;
+    max-width: 100%;
+}
+@media (max-width:480px) {
+    #links {
+        width: auto;
+        height: 100px;
+    }
+    .topnav {
+        font-size: 8.5px;
+    }
+    .somiposter {
+        height: 800px;
+    }
+    .sociallinks {
+        width: -1000px;
+        height: -100px;
+    }
 }

@@ -30,17 +30,15 @@ a {
     text-decoration: none;
     color: white;
 }
-#photo {
-    color: royalblue;
+h2 {
+    text-align: center;
+    text-decoration: underline;
 }
-.flexcontainer
-{
+.container{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 .box {
-    justify-content: center;
-    height: 200px;
-    width: 200px;
-    border: 1px solid black;
+    margin: 45px;
 }

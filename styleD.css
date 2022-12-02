@@ -24,7 +24,7 @@ ul {
 }
 li {
     display: inline-block;
-    margin: 45px;   
+    margin: 40px;   
 }
 a {
     text-decoration: none;
@@ -50,4 +50,13 @@ a {
 img {
     width: 300px;
     height: 300px;
+}
+
+.details {
+    color: palevioletred;
+    background-color: black;
+    padding: 25px 25px;
+    height: 30px;
+    width: 20px;
+    
 }

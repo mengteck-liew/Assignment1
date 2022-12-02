@@ -21,16 +21,15 @@ ul {
 }
 li {
     display: inline-block;
+    color: black;
     margin: 40px;   
 }
 .topnav {
     text-decoration: none;
     color: white;
 }
-.albumimg {
+.image {
     display: block;
     margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
     width: 300px;
 }
