@@ -7,21 +7,23 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="styleD.css" type="text/css">
     <link rel="stylesheet" href="normalize.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css"> <!-- for navigation bar -->
 </head>
 <body>
     <header>
-        <h1 id="titlepage"><a href="index.html">Jeon Somi</a></h1>
-        <nav id="links">
+        <nav class="navbar">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+            <label for="logo" class="title"><a href="index.html" class="title">Jeon Somi</a></label>
             <ul>
-                <li><a href="profile.html" class="topnav">Profile</a></li>
-                <li><a id="disc" href="discography.html" class="topnav">Discrography</a></li>
+                <li><a href="Profile.html" class="topnav">Profile</a></li>
+                <li><a href="discography.html" class="topnav">Discography</a></li>
                 <li><a href="video.html" class="topnav">Video</a></li>
             </ul>
-        </nav>
+            </nav>
     </header>
     <main>
-        <br><br>
-        <a href="AlbumDetails.html" class="details">Full Details</a>
+        <br><br><br>
         <div class="flex-container">
             <div class="box">
                 <img src="images/Birthday.jpg" alt="">  

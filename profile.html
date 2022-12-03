@@ -1,27 +1,33 @@
 <html lang="en">
     <head>
         <title>Profile</title>
-        <link rel="stylesheet" href="styleProfile.css" t>
+        <link rel="stylesheet" href="styleProfile.css" type="text/css">
         <link rel="stylesheet" href="normalize.css" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css"> <!-- for navigation bar -->
     </head>
     <body>
         <header>
-            <h1 id="titlepage"><a href="index.html">Jeon Somi</a></h1>
-            <nav id="links">
-                <ul>
-                    <li><a id="profile" href="profile.html" class="topnav">Profile</a></li>
-                    <li><a href="discography.html" class="topnav">Discrography</a></li>
-                    <li><a href="video.html" class="topnav">Video</a></li>
-                </ul>
-            </nav>
+            <nav class="navbar">
+                <nav class="navbar">
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+                    <label for="logo" class="title"><a href="index.html" class="title">Jeon Somi</a></label>
+                    <ul>
+                        <li><a href="Profile.html" class="topnav">Profile</a></li>
+                        <li><a href="discography.html" class="topnav">Discography</a></li>
+                        <li><a href="video.html" class="topnav">Video</a></li>
+                    </ul>
+                    </nav>
         </header>
-
         <section class="box">
             <div class="flex-container">
-                <div class="box1"><img src="images/SomiProfile.jpeg" alt="" id="SomiProfile"></div>
-            </div>
-            <div class="flex-container">
-                <div class="box2">
+                <div class="box">
+                    <div class="box1">
+                        <img src="images/SomiProfile.jpeg" alt="" id="SomiProfile">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box2">
                     <h3>Profile</h3>
                     <p>Name: Ennik Somi Douma / Jeon Somi (전소미)</p>
                     <p>Birth Date: March 9, 2001</p>
@@ -29,18 +35,19 @@
                     <p>Height: 172cm</p>
                     <p>MBTI: ENFP</p>
                     <p>She is a is a solo singer who became well-known after <br> competing on the survival shows SIXTEEN and ranking first in Produce 101.</p>
+                    </div>
                 </div>
             </div>
         </section>
         <footer>
-            <ul>
-               <h5 class="socials">Somi Official</h5>
-                <li><a href="https://www.instagram.com/somsomi0309/?hl=en" target="_blank">Instagram</a></li>
-                <li><a href="https://www.youtube.com/@jeonsomi_official" target="_blank">Youtube</a></li>
-                <li><a href="https://twitter.com/somi_official_" target="_blank">Twitter</a></li>
-                <li><a href="https://www.tiktok.com/@somi_official_" target="_blank">Tiktok</a></li>
-                <li><a href="https://open.spotify.com/artist/7zYj9S9SdIunYCfSm7vzAR" target="_blank">Spotify</a></li>
-               </ul>
+            <div class="box">
+                <div class="socials">
+                    <a href="https://www.instagram.com/somsomi0309/?hl=en" class="links" target="_blank">Instagram</a>
+                    <a href="https://www.youtube.com/@jeonsomi_official" class="links" target="_blank">Youtube</a>
+                    <a href="https://twitter.com/somi_official_" class="links" target="_blank">Twitter</a>
+                    <a href="https://www.tiktok.com/@somi_official_" class="links" target="_blank">Tiktok</a>
+                </div>
+            </div>
             </footer>
     </body>
 </html> 
