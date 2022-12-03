@@ -8,35 +8,44 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="normalize.css" type="text/css">
         <link rel="stylesheet" href="stylealbum.css" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
     </head>
     <body>
         <header>
-            <h1 id="titlepage"><a href="index.html" class="topnav">Jeon Somi</a></h1>
-            <nav id="links">
+            <nav class="navbar">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+                <label for="logo" class="title">Jeon Somi</label>
                 <ul>
-                    <li><a href="profile.html" class="topnav">Profile</a></li>
-                    <li><a id="disc" href="discography.html" class="topnav">Discrography</a></li>
+                    <li><a href="Profile.html" class="topnav">Profile</a></li>
+                    <li><a href="dicography.html" class="topnav">Discography</a></li>
                     <li><a href="video.html" class="topnav">Video</a></li>
                 </ul>
-            </nav>
+                </nav>
         </header>
         <article>
-            <img src="images/Birthday.jpg" alt="" class="image">
-            <h3>Somi</h3>
-            <h4>Birthday Debut Single</h4>
-            <div class="tracklist">
-                <h5>Track List</h5>
-            <ol>
-                <li>Birthday *Title*</li>
-                <li>Outta My Head</li>
-            </ol>
-            </div>  
-            <iframe width="420" height="315"
-            src="https://www.youtube.com/embed/oDJ4ct59NC4/">
-            </iframe>
+          <div class="content">
+            <div class="container">
+                <img src="images/Birthday.jpg" alt="" class="image">
+                <div class="tracklist">
+                    <h4>Birthday Debut Single</h4>
+                    <ul class="list1">
+                        <li>1.Birthday *Title*</li>
+                        <li>2.Outta My Head</li>
+                    </ul>
+                </div>
+                <div class="media">
+                    <iframe width="420" height="315"
+                    src="https://www.youtube.com/embed/oDJ4ct59NC4/">
+                    </iframe>	
+                </div>
+
+            </div>
+            <div class="container"></div>
+            <div class="container"></div>
+            <div class="container"></div>
+          </div>
         </article>
        
-        
-        <script src="" async defer></script>
     </body>
 </html>

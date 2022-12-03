@@ -66,9 +66,7 @@ footer {
 }
 .socials {
     display: flex;
-    align-items: center;
     justify-content: center;
-    text-align: center;
 }
 .links {
     color: white;
@@ -76,9 +74,8 @@ footer {
     padding: 30px;
 }
 .somiposter {
-    width: 1535px;
-    height: 550px;
-    max-width: 100%;
+    
+    width: 1518px;
 }
 @media (max-width: 952px){
     .title {
@@ -118,6 +115,17 @@ footer {
         left: 0;
     }
     .somiposter {
-        height: 800px;
+        width: 360px;
+        height: 600px;
+    }
+    .links {
+        color: white;
+        text-transform: uppercase;
+        padding: 15px;
+        font-size: 10px;
+    }
+    .socials {
+        display: flex;
+        text-align: center;
     }
 }
