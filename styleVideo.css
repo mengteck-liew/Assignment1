@@ -16,7 +16,9 @@
     height: 80px;
     width: 100%;
 }
-
+#video {
+    color: palevioletred;
+}
 .navbar ul {
     float: right;
     margin-right: 40px;

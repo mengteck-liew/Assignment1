@@ -16,6 +16,9 @@
     height: 80px;
     width: 100%;
 }
+#profile {
+    color: palevioletred;
+}
 
 .navbar ul {
     float: right;
@@ -72,8 +75,8 @@ footer ul {
   }
 .box2   {
     margin:110px;
-    height: 350px;
-    width: 400px;
+    height: 260px;
+    width: 450px;
     align-self: center  ;
     border: 1px black solid;
     align-items: right;
