@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+.title {
+    color: white;
+    font-size: 45px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}   
+.navbar {
+    background: black;
+    height: 80px;
+    width: 100%;
+}
+#discography {
+    color:palevioletred;
+}
+.navbar ul {
+    float: right;
+    margin-right: 40px;
+}
+.navbar li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px;
+}
+.navbar ul li a {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.topnav:hover {
+    background-color: grey;
+    border: 2px solid grey;
+    transition: .5s;
+}
+.checkbtn {
+    color: white;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display: none;
+}
+#disc {
+    color: royalblue;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.box {
+    width: 300px;
+    height: 300px;
+    margin:25px;
+    border: 4   px black solid;
+    text-align: center;
+}
+img {
+    width: 300px;
+    height: 300px;
+}
+details.track1 summary {
+    padding: 10px;
+    background: rgb(255, 182, 193);
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    transition: background-color .3s;
+}
+details.track1 summary:hover {
+    background: rgb(254, 139, 156);
+}
+details.track2 summary {
+    padding: 10px;
+    background: rgb(255, 0, 0);
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    transition: background-color .3s;
+}
+details.track2 summary:hover {
+    background: rgb(255, 51, 51);
+}
+details.track3 summary {
+    padding: 10px;
+    background: rgb(255,229,180);
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    transition: background-color .3s;
+}
+details.track3 summary:hover {
+    background: rgb(255, 209, 125);
+}
+details.track4 summary {
+    padding: 10px;
+    background: rgb(231, 84, 128);
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    transition: background-color .3s;
+}
+details.track4 summary:hover {
+    background: rgb(240, 36, 97);
+}
+
+@media (max-width: 952px){
+    .title {
+        font-size: 18px;
+        padding-left: 5px;
+    }
+    .navbar ul li a{
+        font-size: 16px;
+    }
+   
+}
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+    .navbar ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: grey;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    .navbar ul li {
+        display: block;
+    }
+    .navbar ul li a{
+        font-size: 20px;
+    }
+    .topnav:hover {
+        color: pink;
+        border: none;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .somiposter {
+        width: 360px;
+        height: 600px;
+    }
+    .links {
+        color: white;
+        text-transform: uppercase;
+        padding: 15px;
+        font-size: 10px;
+    }
+    .socials {
+        display: flex;
+        text-align: center;
+    }
+}
