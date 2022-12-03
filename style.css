@@ -53,22 +53,31 @@ main {
     margin-bottom: 0;
 }
 footer {
-    position: inherit;
-    bottom:0;
-    width: 100%;
     background-color: black;
-    margin-top: auto;
-    float: inline-start;
-    border: none;
-    padding: none;
-    color: white;
+}
+.box
+{
+    margin: 0;
+    margin-bottom: 0;
+    width: 1535;
+    height: 85px;
+    clear: both;
+    position: relative;
 }
 .socials {
-    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.links {
+    color: white;
+    text-transform: uppercase;
+    padding: 30px;
 }
 .somiposter {
-    width: 1515px;
-    height: 600px;
+    width: 1535px;
+    height: 550px;
     max-width: 100%;
 }
 @media (max-width: 952px){
@@ -107,5 +116,8 @@ footer {
     }
     #check:checked ~ ul{
         left: 0;
+    }
+    .somiposter {
+        height: 800px;
     }
 }
