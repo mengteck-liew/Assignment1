@@ -61,7 +61,7 @@ h2 {
     justify-content: center;
 }
 .box {
-    margin: 45px;
+    margin: 25px;
 }
 @media (max-width: 952px){
     .title {
