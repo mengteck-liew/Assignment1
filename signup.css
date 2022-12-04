@@ -9,6 +9,50 @@ body {
     background: palevioletred;
     font-family: 'Lilita One', cursive;
 }
+.title {
+    color: white;
+    font-size: 45px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}   
+.navbar {
+    background: black;
+    height: 80px;
+    width: 100%;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 40px;
+}
+.navbar li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px;
+}
+.navbar ul li a {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.topnav:hover {
+    background-color: grey;
+    border: 2px solid grey;
+    transition: .5s;
+}
+.checkbtn {
+    color: white;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display: none;
+}
 #form {
     width: 300px;
     margin: 12vh auto 0 auto;
@@ -103,4 +147,60 @@ h3 {
 }
 #signup {
     color: palevioletred;
+}
+@media (max-width: 952px){
+    .title {
+        font-size:12px;
+        padding-left: 15px;
+    }
+    .navbar ul li a{
+        font-size: 16px;
+    }
+   
+}
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+    .navbar ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: grey;
+        top: 80px;
+        left: -140%;
+        text-align: center;
+        transition: all .5s;
+    }
+    .navbar ul li {
+        display: block;
+    }
+    .navbar ul li a{
+        font-size: 20px;
+    }
+    .topnav:hover {
+        color: pink;
+        border: none;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    #form {
+        width: 200px;
+        margin: 6vh auto 0 auto;
+        background-color: white;
+        padding: 30px;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+    #submit {
+        padding: 10px;
+        margin-top: 10px;
+        width: 35%;
+        border: none;
+        background-color: black;
+        color: white;
+        border-radius: 10px; 
+    }
+    
 }
