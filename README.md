@@ -14,9 +14,9 @@ Wireframe : https://xd.adobe.com/view/7c0cabe5-3c4e-493c-a1d0-e06aefb296ec-295f/
 navigation bar to browse the different pages
 Social media links to let the fans see more from the artist
 Showcasing full list of albums that the artist realeased
-Showcasing music videos of the what the artist has realeased through media
+Showcasing recent videos that she was in.
 Showcasing artist photo's on a page
-details tag to see track list of the discrography
+details tag to see track list on the discrography
 Form to fill in personal details to join fan club
 showcasing biography of artist 
 
@@ -37,6 +37,7 @@ For any scenarios that have not been automated, test the user stories manually a
 2. When email does not have @ or . an error message will be shown
 3. When keying in password, if password length is less than 8 there will be a error message
 4.if password does not match, error message will appear
+5. When all information is keyed in correctly, all boxes will have green outline
 
 the navigation bar will become a a navingation bar when switched to mobile view, when clicked a popup page will appear to see all the available pages
 The Discography page and videos and page will go from row to column view when switching to mobile view
