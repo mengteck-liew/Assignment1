@@ -1,0 +1,106 @@
+* {
+    
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: palevioletred;
+    font-family: 'Lilita One', cursive;
+}
+#form {
+    width: 300px;
+    margin: 12vh auto 0 auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+h3 {
+    text-align: center;
+}
+.signup {
+    display: flex;
+    flex-direction: column;
+}
+.signup input {
+    border-radius:8px ;
+    display: block;
+    font-size: 12px;
+    padding: 12px;
+    width: 80%;
+}
+#submit {
+    padding: 10px;
+    margin-top: 10px;
+    width: 25%;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 4px; 
+}
+#submit:hover {
+    background-color: rgb(88, 87, 87);
+}
+.signup input:focus{
+    outline: 0;
+}
+.signup.success input{
+    border-color:  rgb(28, 226, 28);
+}
+.signup.error input {
+    border-color: red;
+}
+.signup .error {
+    color: red;
+    font-size: 12px;
+    height: 13px;
+}
+.title {
+    color: white;
+    font-size: 45px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}   
+.navbar {
+    background: black;
+    height: 80px;
+    width: 100%;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 40px;
+}
+.navbar li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px;
+}
+.navbar ul li a {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.topnav:hover {
+    background-color: grey;
+    border: 2px solid grey;
+    transition: .5s;
+}
+.checkbtn {
+    color: white;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display: none;
+}
+#signup {
+    color: palevioletred;
+}
